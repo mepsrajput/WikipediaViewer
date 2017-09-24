@@ -1,0 +1,38 @@
+div.header {
+		padding: 100px;
+		width: 520px;
+		margin: 0px auto;
+}
+
+div.search {
+		width: 330px;
+		margin: 100px auto 0px auto;
+}
+
+div.random {
+		width: 330px;
+		margin: 100px auto 0px auto;
+}
+
+input{
+	width:230px; 
+	height:50px;
+	outline:none;
+	border:none;
+    box-shadow: 1px 1px 5px #888888;
+	border-radius:27px;
+	padding-left: 5px;
+}
+input:hover {
+	box-shadow: 2px 2px 7px #888888;
+}
+button.btn {
+	width:50px; 
+	height:50px;
+	outline:none;
+	border:none;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+}
