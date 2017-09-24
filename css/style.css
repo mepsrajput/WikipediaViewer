@@ -1,17 +1,18 @@
-div.header {
-		padding: 100px;
-		width: 520px;
-		margin: 0px auto;
+
+h1.head1 {
+	padding: 100px;
+	width: 520px;
+	margin: 0px auto;
 }
 
-div.search {
-		width: 330px;
-		margin: 100px auto 0px auto;
+form.search {
+		width: 520px;
+		margin:0px auto;
 }
 
 div.random {
-		width: 330px;
-		margin: 100px auto 0px auto;
+		width: 520px;
+		margin: 25px auto;
 }
 
 input{
@@ -34,5 +35,28 @@ button.btn {
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
+}
 
+
+@media screen and (max-width: 500px) {
+	
+	h1.head1 {
+		width: 335px !important;
+		margin: 0px auto !important;
+		font-size: 20px !important;
+		padding:0px auto;
+	}
+	
+	form.search {
+		width: 335px !important;
+		margin:0px auto !important;
+	}
+
+	div.random {
+		width:335px !important;
+		margin:16px auto !important;
+		font-size: 16px !important;
+
+	}
+	
 }
